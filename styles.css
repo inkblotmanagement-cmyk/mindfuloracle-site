@@ -176,6 +176,8 @@ p { margin: 0 0 1em; }
 .stat-to.warn { color: var(--gold-300); }
 .stat-label { font-size: 1rem; font-weight: 600; color: var(--muted); }
 @media (min-width: 900px) { .feature { grid-template-columns: 1.2fr 1fr; padding: 2.5rem; } }
+@media (min-width: 900px) { .feature-solo { grid-template-columns: 1fr; } }
+.feature-solo .hero-actions { margin-top: 1rem; }
 
 /* About */
 .about-grid { display: grid; gap: 2rem; align-items: start; }
